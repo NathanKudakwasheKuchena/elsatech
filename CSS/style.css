@@ -50,7 +50,7 @@ a.active, a:hover {
 .footer {
     background-color: pink;
     height: 30px;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     text-align: center;
     left: 0px;
@@ -140,3 +140,19 @@ a.active, a:hover {
     margin-top: 6px;
 }
 
+.descriptive_text h1 {
+    text-align: left;
+    font-size: 42px;
+    color: hotpink;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.descriptive_text {
+    background: lightpink;
+    opacity: 75%;
+    margin: auto;
+    width: 60%;
+    padding: 80px;
+}
