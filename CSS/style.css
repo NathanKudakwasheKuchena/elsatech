@@ -81,4 +81,62 @@ a.active, a:hover {
     padding: 90px;
 }
 
+.contact_form {
+    height: 450px;
+    width: 85%;
+    max-width: 500px;
+    background: lightpink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 20px gray;
+}
+
+.contact_form h1 {
+    text-align: center;
+    font-size: 52px;
+    color: hotpink;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.txtbox {
+    border: 1px solid gray;
+    margin: 6px 0;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+.txtbox label {
+    display: block;
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.txtbox input, .txtbox textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.btn{
+    display: block;
+    background: hotpink;
+    padding: 10px 0;
+    color: whitesmoke;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 6px;
+}
 
