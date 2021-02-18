@@ -83,7 +83,7 @@ nav a.active, a:hover {
 }
 
 .contact_form {
-    height: 450px;
+    height: 480px;
     width: 85%;
     max-width: 500px;
     background: lightpink;
@@ -207,7 +207,7 @@ nav a.active, a:hover {
     -webkit-text-stroke-color: black;
 }
 
-.footer_team {
+.footer_sticky {
     background-color: pink;
     height: 30px;
     position: sticky;
@@ -218,13 +218,51 @@ nav a.active, a:hover {
     width: 100%;
 }
 
-.footer_contactus {
-    background-color: pink;
-    height: 30px;
-    position: sticky;
-    bottom: 0;
-    text-align: center;
-    left: 0px;
-    padding-top: 5px;
-    width: 100%;
+.products_section h3 {
+    text-align: left;
+    font-size: 32px;
+    color: hotpink;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.products_section h5 {
+    text-align: left;
+    font-size: 20px;
+    color: hotpink;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80 px;
+}
+
+.product {
+    flex-basis: 260px;
+}
+
+.product .product-img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.product:hover .product-img{
+    filter: invert(20%);
+}
+
+.products_section h1 {
+    text-align: left;
+    font-size: 42px;
+    color: hotpink;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
