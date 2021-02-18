@@ -42,7 +42,7 @@ nav ul li a {
     border-radius: 3px;
 }
 
-a.active, a:hover {
+nav a.active, a:hover {
     background: pink;
     transition: .5s;
 }
@@ -50,7 +50,7 @@ a.active, a:hover {
 .footer {
     background-color: pink;
     height: 30px;
-    position: sticky;
+    position: absolute;
     bottom: 0;
     text-align: center;
     left: 0px;
@@ -79,6 +79,7 @@ a.active, a:hover {
     margin: auto;
     width: 60%;
     padding: 90px;
+    min-height: 100%;
 }
 
 .contact_form {
@@ -155,4 +156,75 @@ a.active, a:hover {
     margin: auto;
     width: 60%;
     padding: 80px;
+}
+
+.team_section h3 {
+    text-align: left;
+    font-size: 32px;
+    color: hotpink;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.team_section h5 {
+    text-align: left;
+    font-size: 20px;
+    color: hotpink;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80 px;
+}
+
+.profile {
+    flex-basis: 260px;
+}
+
+.profile .profile-img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.profile:hover .profile-img{
+    filter: grayscale(50);
+}
+
+.team_section h1 {
+    text-align: left;
+    font-size: 42px;
+    color: hotpink;
+    font-style: italic;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.footer_team {
+    background-color: pink;
+    height: 30px;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    left: 0px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.footer_contactus {
+    background-color: pink;
+    height: 30px;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    left: 0px;
+    padding-top: 5px;
+    width: 100%;
 }
